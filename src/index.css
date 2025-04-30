@@ -1,0 +1,24 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+
+@layer base {
+  body {
+    @apply font-sans text-text-primary bg-gradient-soft from-background-start to-background-end;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+} */
