@@ -167,12 +167,12 @@ const AboutPage = () => {
             <hr className="my-16 md:my-20 border-primary/20 max-w-lg mx-auto" />
 
             {/* Dev Journey Timeline */}
-            <motion.section
+            {/* <motion.section
                 className="relative z-10"
                 variants={sectionVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.1 }} // Trigger slightly earlier
+                viewport={{ once: true, amount: 0.1 }} 
             >
                 <motion.h3
                     className="text-3xl font-heading font-semibold text-center text-text-primary mb-12"
@@ -181,20 +181,20 @@ const AboutPage = () => {
                     My Journey
                 </motion.h3>
                 <div className="relative max-w-3xl mx-auto">
-                    {/* Vertical Gradient Line */}
+             
                     <div className="absolute left-1/2 top-2 bottom-2 w-1 bg-gradient-to-b from-primary/50 via-primary/30 to-primary/10 transform -translate-x-1/2 rounded-full"></div>
 
                     {timelineData.map((item, index) => (
                         <motion.div
                             key={index}
                             className={`mb-10 flex items-center w-full ${index % 2 === 0 ? 'flex-row-reverse justify-end' : 'justify-start'}`}
-                            // Custom variant for timeline items if needed, or use itemVariants
+                          
                             initial={{ opacity: 0, x: index % 2 === 0 ? 60 : -60 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.5 }}
                             transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
                         >
-                            {/* Timeline Content Card */}
+                           
                             <div className={`w-5/12 ${index % 2 === 0 ? 'pl-8 md:pl-10' : 'pr-8 md:pr-10 text-right'}`}>
                                 <div className="bg-white/80 backdrop-blur-sm p-4 md:p-5 rounded-lg shadow-soft border border-gray-200/50 transform transition duration-300 ease-in-out hover:scale-[1.03] hover:shadow-md">
                                     <p className="font-semibold text-primary mb-1 text-sm md:text-base">{item.year}</p>
@@ -203,7 +203,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
 
-                            {/* Animated Dot on the timeline */}
+                           
                             <motion.div
                                 className="absolute left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center"
                                 initial={{ scale: 0 }}
@@ -218,7 +218,7 @@ const AboutPage = () => {
                         </motion.div>
                     ))}
                 </div>
-            </motion.section>
+            </motion.section> */}
 
         </div>
     );
