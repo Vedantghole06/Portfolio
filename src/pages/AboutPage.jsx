@@ -55,7 +55,7 @@ const AboutPage = () => {
     return (
         <div className="min-h-screen container mx-auto px-4 py-24 md:py-32 relative overflow-hidden">
             {/* Subtle Floating Icons Background */}
-            <FloatingIcons count={6} /> {/* Fewer icons for a subtler effect */}
+            <FloatingIcons count={10} /> {/* Fewer icons for a subtler effect */}
 
             <motion.h2
                 className="text-4xl md:text-5xl font-bold font-heading text-center mb-16 text-text-primary relative z-10" // Ensure heading is above background
