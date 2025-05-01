@@ -10,8 +10,8 @@ const allProjects = [
         description: "The very portfolio you are looking at! Built with React, Tailwind CSS, and Framer Motion.",
         imageUrl: "./portfolio.png",
         techStack: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
-        liveUrl: "#", // Link to live demo if applicable
-        repoUrl: "https://github.com/yourusername/your-repo", // <<<--- Add GitHub link
+        liveUrl: "https://vedant-portfolio-chi.vercel.app/", // Link to live demo if applicable
+        repoUrl: "https://github.com/Vedantghole06/Portfolio", // <<<--- Add GitHub link
         category: 'React'
     },
     {
