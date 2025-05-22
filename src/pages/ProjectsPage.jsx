@@ -41,7 +41,7 @@ const allProjects = [
         imageUrl: "./wildsoul.png", // <<<--- Add path to your preview image
         techStack: ["React", "Node.js", "Express", "MongoDB", "API"],
         liveUrl: "https://wildsoulsafaris.vercel.app/",
-        repoUrl: "https://github.com/Vedantghole06/wildsoulsafaris", // <<<--- Add GitHub link
+        repoUrl: null, // <<<--- Add GitHub link
         category: 'Fullstack'
     },
     {
