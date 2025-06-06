@@ -74,6 +74,16 @@ const allProjects = [
         repoUrl: "https://github.com/Vedantghole06/CopyCat", // <<<--- Add GitHub link
         category: 'Fullstack'
     },
+    {
+        id: 8,
+        title: "Blue Ladder",
+        description: "BlueLadder EPC is a global enterprise that specializes in providing solutions for Pre-engineered Buildings and Steel Structures.",
+        imageUrl: "./blue-ladder.png", // <<<--- Add path to your preview image
+        techStack: ["React", "Tailwind CSS"],
+        liveUrl: "https://blue-ladder.vercel.app/",
+        repoUrl: null, // <<<--- Add GitHub link
+        category: 'React'
+    },
 
 ];
 
