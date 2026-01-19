@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion'; // Added AnimatePresence for tooltips if needed later
 import { FaReact, FaNodeJs, FaCode, FaGraduationCap, FaBriefcase, FaHtml5 } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiJavascript, SiExpress } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiJavascript, SiExpress, SiSelenium, SiJunit5, SiCucumber } from 'react-icons/si';
 import { FaCss3, FaGithub } from 'react-icons/fa6';
 
 // --- IMPORT YOUR ASSETS ---
-import VedantPhoto from '../assets/vedant-photo.jpg'; // Make sure this path is correct
+import VedantPhoto from '../assets/vedant.jpeg'; // Make sure this path is correct,
 import FloatingIcons from '../components/FloatingIcons'; // Import the floating icons
 
 // --- DATA (Keep your updated skills) ---
@@ -19,6 +19,9 @@ const skills = [
     { name: 'MongoDB', icon: <SiMongodb className="text-green-600" />, level: 'Intermediate' },
     { name: 'JavaScript (ES6+)', icon: <SiJavascript className="text-yellow-400" />, level: 'Advanced' }, // Slightly adjusted color
     { name: 'GitHub', icon: <FaGithub className="text-gray-800" />, level: 'Advanced' }, // Adjusted color
+    { name: 'Selenium', icon: <SiSelenium className="text-gray-800" />, level: 'Advanced' }, // Adjusted color
+    { name: 'Junit5', icon: <SiJunit5 className="text-gray-800" />, level: 'Advanced' }, // Adjusted color
+    { name: 'Cucumber', icon: <SiCucumber className="text-gray-800" />, level: 'Advanced' }, // Adjusted color
     // Add more skills...
 ];
 

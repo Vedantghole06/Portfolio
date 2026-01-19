@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../components/Button';
 import FloatingIcons from '../components/FloatingIcons';
-import VedantPhoto from '../assets/vedant-photo.jpg'; // <<<--- IMPORT YOUR PHOTO HERE
+import VedantPhoto from '../assets/vedant.jpeg'; // <<<--- IMPORT YOUR PHOTO HERE
 import { FaArrowDown } from 'react-icons/fa';
 
 const HomePage = () => {
